@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        .aylana{
+            width: 500px;
+            height: 500px;
+            background-image: radial-gradient(red,yellow,rgb(70, 201, 30),rgb(70, 201, 30),cyan, blue );
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        p{
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 27px;
+        }
+        .button1{
+            width: 120px;
+            height: 40px;
+            font-size: 17px;
+            background-image: linear-gradient(90deg, red, orange);
+            border: 0px;
+            color: white;
+        }
+        .button2{
+            width: 120px;
+            height: 40px;
+            font-size: 17px;
+            background-image: linear-gradient(90deg, cyan, indigo);
+            border: 0px;
+            color: white;
+        }
+        .button3{
+            width: 120px;
+            height: 40px;
+            font-size: 17px;
+            background-image: linear-gradient(90deg, lightgreen, yellowgreen);
+            border: 0px;
+            color: white;
+        }
+        .button4{
+            width: 120px;
+            height: 40px;
+            font-size: 17px;
+            background-image: linear-gradient(90deg, lightpink, purple);
+            border: 0px;
+            color: white;
+        }
+        .button5{
+            width: 120px;
+            height: 40px;
+            font-size: 17px;
+            background-image: linear-gradient(90deg, );
+            border: 0px;
+        }
+        body{
+            margin: 0;
+        }
+        .maydon1{
+            width: 100%;
+            height: 650px;
+            background-image: linear-gradient(135deg, rgb(132, 35, 201), cyan);
+        }
+        .maydon2{
+            width: 100%;
+            height: 650px;
+            background-image: linear-gradient(45deg, grey, rgb(0, 174, 255), white, white);
+        }
+        .maydon3{
+            width: 100%;
+            height: 100px;
+            background-image: linear-gradient(43deg, #5300EE, #fd665ee5);
+        }
+        .maydon4{
+            margin: 20px auto;
+            width: 500px;
+            height: 130px;
+            display:flex
+        }
+        .shakllar1{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+        }
+        .shakllar2{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 35%;
+        }
+        .shakllar3{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 50%;
+        }
+        .shakllar4{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 20% 0;
+        }
+        .shakllar5{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 100% 0 0 0;
+        }
+        .shakllar6{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 25%;
+        }
+        .shakllar7{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 100% 0;
+        }
+        .shakllar8{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border: 3px solid orangered;
+            background-color: indigo;
+            border-radius: 100% 100% 0 0;
+        }
+        .maydon5{
+            margin: 0 auto;
+            width: 500px;
+            height: 130px;
+            display:flex
+        }
+        .shakllar01{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 100%;
+            background-color: #00BEF0;
+        }
+        .shakllar02{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 100%;
+            background-color: #FF9600;
+        }
+        .shakllar03{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 100%;
+            background-color: #4AE100;
+        }
+        .shakllar04{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 100%;
+            background-color: #F00E3E;
+        }
+        .shakllar05{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            background-color: #00BEF0;
+        }
+        .shakllar06{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            background-color: #FF9600;
+        }
+        .shakllar07{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            background-color: #4AE100;
+        }
+        .shakllar08{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            background-color: #F00E3E;
+        }
+        .shakllar09{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 15% 40%;
+            background-color: #00BEF0;
+        }
+        .shakllar010{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 15% 40%;
+            background-color: #FF9600;
+        }
+        .shakllar011{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 15% 40%;
+            background-color: #4AE100;
+        }
+        .shakllar012{
+            width: 110px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 15% 40%;
+            background-color: #F00E3E;
+        }
+        .maydon6{
+            margin: 0 auto;
+            width: 500px;
+            height: 130px;
+            display:flex
+        }
+        .tugma1{
+            width: 120px;
+            height: 50px;
+            margin: 10px;
+            font-size: 17px;
+            background-color: #0EBD96;
+            border: 0;
+            border-bottom: 3px solid #04886b;
+            border-radius: 10px;
+            color: white;
+        }
+        .tugma2{
+            width: 120px;
+            height: 50px;
+            margin: 10px 20px;
+            font-size: 17px;
+            background-color: #88BC58;
+            border: 0px;
+            border-bottom: 3px solid #6DA13D;
+            border-radius: 10px;
+            color: white;
+        }
+        .tugma3{
+            width: 120px;
+            height: 50px;
+            margin: 10px 20px;
+            font-size: 17px;
+            background-color: #E97D22;
+            border: 0px;
+            border-bottom: 3px solid #C46410;
+            border-radius: 10px;
+            color: white;
+        }
+        .tugma4{
+            width: 120px;
+            height: 50px;
+            margin: 10px;
+            font-size: 17px;
+            background-color: #3CBCE3;
+            border: 0px;
+            border-bottom: 3px solid #2C9DBF;
+            border-radius: 20px;
+            color: white;
+        }
+        .tugma5{
+            width: 120px;
+            height: 50px;
+            margin: 10px 20px;
+            font-size: 17px;
+            background-color: #9A59B5;
+            border: 0px;
+            border-bottom: 3px solid #814899;
+            border-radius: 20px;
+            color: white;
+        }
+        .tugma6{
+            width: 120px;
+            height: 50px;
+            margin: 10px 20px;
+            font-size: 17px;
+            background-color: #FBC75A;
+            border: 0px;
+            border-bottom: 3px solid #F2B737;
+            border-radius: 20px;
+            color: white;
+        }
+        .tugma7{
+            width: 120px;
+            height: 50px;
+            margin: 10px;
+            font-size: 17px;
+            background-color: #4B4C4E;
+            border: 0px;
+            border-bottom: 3px solid #343434;
+            border-radius: 20px;
+            color: white;
+        }
+        .tugma8{
+            width: 120px;
+            height: 50px;
+            margin: 10px 20px;
+            font-size: 17px;
+            background-color: #E84C3D;
+            border: 0px;
+            border-bottom: 3px solid #C83023;
+            border-radius: 20px;
+            color: white;
+        }
+        .tugma9{
+            width: 120px;
+            height: 50px;
+            margin: 10px 20px;
+            font-size: 17px;
+            background-color: #36485C;
+            border: 0px;
+            border-bottom: 3px solid #212E3E;
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Aylana ichida ranglar ketma ketlikda  -->
+    <!-- <div class="aylana"></div> -->
+
+    <!-- Turli xil rangli tugmalar ketma ketligi -->
+    <div class="turlixiltugmalar">
+        <p>Turli xil tugmalar</p>
+        <input type="button" value="Button1" class="button1">
+        <input type="button" value="Button2" class="button2">
+        <input type="button" value="Button3" class="button3">
+        <input type="button" value="Button4" class="button4">
+        <input type="button" value="Button5" class="button5">
+    </div>
+
+    <!--Umumiy maydonga 135gradusli ikki xil rangli ketma ketlik  -->
+    <div class="maydon1"></div>
+
+    <!--Umumiy maydonga 45 gradusli ranglarni ketma-ketligi joylashtirildi.  -->
+    <div class="maydon2"></div>
+
+    <!--Uzun bir satrda 43 gradusli ranglar ketma ketligini hosil qildik.  -->
+    <div class="maydon3"></div>
+
+    <!--Bu yerda 2 satrda jami 8 dona shakllar yaratildi va bu yerda asosan borderlar bilan ishlandi.  -->
+    <div class="maydon4">
+        <div class="shakllar1"></div>
+        <div class="shakllar2"></div>
+        <div class="shakllar3"></div>
+        <div class="shakllar4"></div>
+    </div>
+    <br>
+    <div class="maydon4">
+        <div class="shakllar5"></div>
+        <div class="shakllar6"></div>
+        <div class="shakllar7"></div>
+        <div class="shakllar8"></div>
+    </div>
+
+    <!--Quyida 3 satrli 4 ta ustunda shakllar yaratilib asosan borderlar bilan ishlangan.  -->
+    <div class="maydon5">
+        <div class="shakllar01"></div>
+        <div class="shakllar02"></div>
+        <div class="shakllar03"></div>
+        <div class="shakllar04"></div>
+    </div>
+    <br>
+    <div class="maydon5">
+        <div class="shakllar05"></div>
+        <div class="shakllar06"></div>
+        <div class="shakllar07"></div>
+        <div class="shakllar08"></div>
+    </div>
+    <br>
+    <div class="maydon5">
+        <div class="shakllar09"></div>
+        <div class="shakllar010"></div>
+        <div class="shakllar011"></div>
+        <div class="shakllar012"></div>
+    </div>
+
+    <!--Quyida 3 ta satrga 3 ta ustun tugmalar(buttons) rangba-rang va border radiuslar bilan ishlangan.  -->
+    <br><br><br><br>
+    <div class="maydon6">
+        <input type="button" value="Button" class="tugma1">
+        <input type="button" value="Button" class="tugma2">
+        <input type="button" value="Button" class="tugma3">
+    </div>
+    <div class="maydon6">
+        <input type="button" value="Button" class="tugma4">
+        <input type="button" value="Button" class="tugma5">
+        <input type="button" value="Button" class="tugma6">
+    </div>
+    <div class="maydon6">
+        <input type="button" value="Button" class="tugma7">
+        <input type="button" value="Button" class="tugma8">
+        <input type="button" value="Button" class="tugma9">
+    </div>
+</body>
+</html>
