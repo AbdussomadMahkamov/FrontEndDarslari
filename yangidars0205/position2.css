@@ -1,0 +1,42 @@
+.block{
+    width: 500px;
+    height: 350px;
+    background-color: #22374a;
+    position: relative;
+}
+.box1{
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    border: 5px solid;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.box2{
+    width: 160px;
+    height: 160px;
+    background-color: #33c44d;
+    border: 5px solid;
+    position: absolute;
+    top: 80px;
+    left: 180px;
+}
+.box3{
+    width: 160px;
+    height: 160px;
+    background-color: #49c3c4;
+    border: 5px solid;
+    position: absolute;
+    bottom: 30px;
+    left: 130px;
+}
+.box4{
+    width: 160px;
+    height: 160px;
+    background-color: #301de9;
+    border: 5px solid yellow;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
