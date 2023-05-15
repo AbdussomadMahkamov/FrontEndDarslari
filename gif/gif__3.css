@@ -1,0 +1,99 @@
+.block{
+    width: 700px;
+    height: 600px;
+    background-color: #8BBC9B;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #66746F;
+    color: #66746F;
+    background-color: #EEF7FD;
+    margin: 50px auto;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.box:hover{
+    transform: scale(2.5);
+}
+/* =================================== */
+.box1{
+    width: 400px;
+    height: 350px;
+    border: 0px;
+    color: #66746F;
+    background-color: #00457F;
+    margin: 50px auto;
+    transition: all;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+.box1:hover{
+    transform: scale(1.5,0.7);
+}
+/* ======================================= */
+.block1{
+    width: 200px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: -300px;
+    width: 180px;
+    height: 50px;
+    background-color: #00457F;
+    color:white ;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+button:hover{
+    translate: 0px 300px;
+}
+/* ========================= */
+.block2{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    margin-top: -300px;
+    width: 180px;
+    height: 50px;
+    background-color: #00457F;
+    color:white ;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+.button1:hover{
+    translate: 300px 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

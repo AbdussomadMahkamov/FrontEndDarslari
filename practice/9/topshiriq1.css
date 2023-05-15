@@ -1,0 +1,72 @@
+.block{
+    margin: 100px auto;
+    width: 80%;
+}
+.block div{
+    width: 500px;
+    height: 40px;
+    border: 2px solid gray;
+    margin: 10px;
+}
+.block div:nth-child(odd){
+    background: crimson;
+}
+.block div:nth-child(even){
+    background: lightgreen;
+}
+.block div:nth-child(3){
+    background: indigo;
+}
+body{
+    text-align: center;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 26px;
+    font-family: monospace;
+    color: white;
+    background: blueviolet;
+    border: none;
+    position: relative;
+    transition: 1s all;
+    border-radius: 3px;
+}
+.btn div{
+    position: absolute;
+    background: cyan;
+    transition: 1s all;
+
+}
+.btn div:nth-child(odd){
+    width: 0%;
+    height: 3px;
+}
+.btn div:nth-child(even){
+    width: 3px;
+    height: 0%;
+}
+.btn div:nth-child(1){
+    top: 0px;
+    right: 0px;
+}
+.btn div:nth-child(2){
+    bottom: 0px;
+    right: 0px;
+}
+.btn div:nth-child(3){
+    bottom: 0px;
+    left: 0px;
+}
+.btn div:nth-child(4){
+    top: 0px;
+    left: 0px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 3px 2px cyan;
+}
+.btn:hover div:nth-child(odd){
+    width: 100%;
+}
+.btn:hover div:nth-child(even){
+    height: 100%;
+}

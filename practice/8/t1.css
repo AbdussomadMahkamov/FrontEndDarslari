@@ -1,0 +1,48 @@
+body{
+    background-color: #F5F5F5;
+}
+.block{
+    font-family: sans-serif;
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: #E7E3E2;
+}
+p{
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    top: -65px;
+}
+.s1{
+    box-shadow: 0px 0px 6px 3px #ACACAC;
+    padding-top: 70px;
+}
+.s2{
+    box-shadow: 5px 5px 6px 3px #ACACAC;
+    padding-top: 70px;
+}
+.s3{
+    box-shadow: -5px -5px 6px 3px #ACACAC;
+    padding-top: 70px;
+}
+.si1{
+    box-shadow: inset 0px 0px 6px 3px #ACACAC;
+    padding-top: 70px;
+}
+.si2{
+    box-shadow: inset 5px 5px 6px 3px #ACACAC;
+    padding-top: 70px;
+}
+.si3{
+    box-shadow: inset -5px -5px 6px 3px #ACACAC;
+    padding-top: 70px;
+}

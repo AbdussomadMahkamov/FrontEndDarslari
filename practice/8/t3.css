@@ -1,0 +1,33 @@
+.block{
+    width: 60%;
+    margin: 0px auto;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: white;
+}
+.a2{
+    box-shadow: 3px 3px 5px 1px darkgrey, -3px 3px 5px 1px darkgrey;
+}
+.a3{
+    box-shadow: 5px 5px 5px 2px darkgrey, -1px 5px 5px 2px darkgrey;
+}
+.a3{
+    box-shadow: 5px 5px 5px 2px darkgrey, -1px 5px 5px 2px darkgrey;
+}
+.a4{
+    box-shadow: 3px 6px 10px 1px darkgrey, -1px 6px 10px 1px darkgrey;
+}
+.a5{
+    box-shadow: 7px 15px 15px 1px darkgrey, -3px 15px 15px 1px darkgrey;
+}
+.a6{
+    box-shadow: 7px 25px 15px 3px darkgrey, -3px 15px 15px 3px darkgrey;
+}

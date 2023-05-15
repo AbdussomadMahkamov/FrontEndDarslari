@@ -1,0 +1,111 @@
+.block{
+    width: 40%;
+    height: 150px;
+    margin: 100px auto;
+    background-color: #AE93D6;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.butoon1{
+width: 150px;
+height: 60px;
+background-color: white;
+color: black;
+font-size: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0px;
+transition-duration: 0.1s;
+transition-timing-function: linear;
+}
+.butoon1:hover{
+    background-color: #C3B4E0;
+}
+
+/* ------------------------------------------------------------- */
+.box{
+    width: 150px;
+    height: 100px;
+    margin: 50px auto;
+    border: 4px solid #65B7D6;
+    background-color: #EAE9E8;
+    color:#65B7D6 ;
+    box-shadow: -10px 15px 0px 0px #65B7D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    font-weight: bolder;
+}
+.box:hover{
+    background-color: #65B7D6;
+    color: white;
+    box-shadow: none;
+    margin: 75px 680px;
+}
+/* ------------------------ */
+.bu{
+    width: 180px;
+    height: 50px;
+    background-color: #5B68C5;
+    border-radius: 10px;
+    margin-left: 0px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    color: white;
+    font-size: 20px;
+
+}
+.lll{
+    width: 500px;
+    height: 500px;
+   text-align: center;
+    margin: 0px auto;
+    font-size: 26px;
+    font-weight: bolder;
+    color: grey;
+}
+.bu:hover{
+background-color: #787EB0;
+}
+/* ------------------------------------- */
+.button2{
+    width: 180px;
+    height: 50px;
+    background-color: #000001;
+    border-radius: 50px;
+    margin-left: 0px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+}
+.ll1{
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+    margin-top: -400px;
+    font-size: 26px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2:hover{
+    background-color: #7CE59F;
+}
+
+
+
+
+
+
+
+
+
+
+

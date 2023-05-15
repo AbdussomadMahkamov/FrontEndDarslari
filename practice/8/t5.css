@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.block{
+    width: 90%;
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+.a1{
+    box-shadow: -7px -7px 10px 0 grey;
+}
+.a2{
+    box-shadow: 7px -7px 10px 0 grey;
+}
+.a3{
+    box-shadow: 7px 7px 10px 0 grey;
+}
+.a4{
+    box-shadow: -7px 7px 10px 0 grey;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+}

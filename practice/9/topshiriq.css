@@ -1,0 +1,85 @@
+.ablock{
+    width: 900px;
+    height: 700px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 100px auto;
+   flex-wrap: wrap;
+  
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #0077fe;
+    color: #033a39;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+    transition-duration: 0.5s; /*Bu funksiya animatsiyani bizga ko'rinish vaqti hisoblanadi*/
+    transition-property: all; 
+}
+
+.box:hover{
+    transform: rotate(180deg);
+}
+.a:hover{
+    transform: rotate(-45deg);
+}
+/* ======================================================= */
+
+.box1{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #6BFBCA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 12px 12px 0px;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.box1:hover{
+    background-color: #00FCFC;
+    border-radius: 0px;
+    box-shadow: none;
+}
+/* ================================================= */
+.button1{
+    width: 210px;
+    height: 70px;
+    border: 0px;
+    background-color: #119BFD;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.button1:hover{
+    border-radius: 50px;
+    background-color: #31E858;
+}
+/* ======================================= */
+.box2{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #F15CAD;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.box2:hover{
+    background-color: #F7B7C4;
+    transform: scale(0.7);
+}

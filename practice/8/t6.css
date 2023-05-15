@@ -1,0 +1,15 @@
+.block{
+    width: 50%;
+    margin: 40px auto;
+    padding: 100px;
+    background-color: #2BA8E2;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    font-weight:550;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 15px 19px 1px #19506F;
+}

@@ -1,0 +1,33 @@
+.block{
+    width: 70%;
+    margin: 50px auto;
+    background: seagreen;
+    padding: 15px;
+}
+.block div{
+    margin: 50px;
+}
+.box1{
+    border: 10px dotted yellow;
+}
+.box2{
+    border: 10px dashed yellow;
+}
+.box3{
+    border: 10px solid yellow;
+}
+.box4{
+    border: 10px double yellow;
+}
+.box5{
+    border: 10px groove yellow;
+}
+.box6{
+    border: 10px ridge yellow;
+}
+.box7{
+    border: 10px inset yellow;
+}
+.box8{
+    border: 10px outset yellow;
+}
