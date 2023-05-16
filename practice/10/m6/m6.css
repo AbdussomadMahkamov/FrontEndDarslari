@@ -1,0 +1,27 @@
+.block{
+    width: 60%;
+    margin: 50px auto;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.aa{
+    width: 30%;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.block div.box:nth-child(odd){
+    background: #e08283;
+}
+.block div.box:nth-child(even){
+    background: #ebeff2;
+}
+.block div.box:nth-child(1){
+    background: #010080;
+    color: white;
+    font-weight: bolder;
+}

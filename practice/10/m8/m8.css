@@ -1,0 +1,33 @@
+.block{
+    background: black;
+    color: white;
+    width: 70%;
+    margin: 50px auto;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.aa{
+    width: 30%;
+    padding: 7px;
+}
+.block div.box:nth-child(even){
+    background: #2c3f50;
+}
+.block div.box:nth-child(odd){
+    background: #16a086;
+}
+.block div.box:nth-child(2){
+    font-weight: bolder;
+}

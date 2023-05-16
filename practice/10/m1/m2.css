@@ -1,0 +1,41 @@
+.block{
+    background: #343948;
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.btn{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #007acc;
+    background: none;
+    border: 7px solid #007acc;
+    margin-top: 215px;
+    position: relative;
+    padding: 20px 35px;
+}
+.btn div{
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    transform: rotate(45deg);
+    background: #343948;
+    transition: 0.7s;
+}
+.btn div:nth-child(1){
+    top: -10px;
+    left: 25px;
+}
+.btn div:nth-child(2){
+    bottom: -10px;
+    right: 25px;
+}
+.btn:hover div:nth-child(1){
+    top: -10px;
+    left: 145px;
+}
+.btn:hover div:nth-child(2){
+    bottom: -10px;
+    right: 145px;
+}

@@ -1,0 +1,37 @@
+.block{
+    width: 70%;
+    margin: 50px auto;
+    color: white;
+    background: #2c2f34;
+    font-size: 20px;
+}
+.box{
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.aa{
+    height: 40px;
+    margin-top: 7px;
+}
+.box div.aa:nth-child(1){
+    width: 10%;
+    margin-left: 20px;
+}
+.box div.aa:nth-child(2){
+    width: 18%;
+    margin-left: 20px;
+}
+.box div.aa:nth-child(3){
+    width: 18%;
+    margin-left: 20px;
+}
+.box div.aa:nth-child(4){
+    width: 45%;
+    margin-left: 20px;
+}
+.block div.box:nth-child(odd){
+    background: #212429;
+}

@@ -1,0 +1,71 @@
+.block{
+    background: #343948;
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+.btn{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #007acc;
+    background: none;
+    /* border: 3px solid black; */
+    border: none;
+    margin-top: 215px;
+    position: relative;
+    transition: 1 all;
+    padding: 20px 35px;
+    overflow: hidden;
+}
+.btn div{
+    background: #007acc;
+    position: absolute;
+    transition: 1s all;
+}
+.btn div:nth-child(odd){
+    width: 105%;
+    height: 7px;
+}
+.btn div:nth-child(even){
+    width: 7px;
+    height: 100%;
+}
+.btn div:nth-child(1){
+    top: 0px;
+    left: 0px;
+}
+.btn div:nth-child(2){
+    top: 0px;
+    right: 0px;
+}
+.btn div:nth-child(3){
+    bottom: 0px;
+    left: 0px;
+}
+.btn div:nth-child(4){
+    top: 0px;
+    left: 0px;
+}
+.btn dir{
+    background: #343948;
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    transition: 0.5s all;
+    transform: rotate(45deg);
+}
+.btn dir:nth-child(odd){
+    top: -35px;
+    right: 20px;
+}
+.btn dir:nth-child(even){
+    bottom: -35px;
+    left: 20px;
+}
+.btn:hover dir:nth-child(odd){
+    right: 140px;
+}
+.btn:hover dir:nth-child(even){
+    left: 140px;
+}

@@ -1,0 +1,95 @@
+.block{
+    width: 700px;
+    height: 500px;
+    margin: 60px auto;
+    background: grey;
+    border: 4px solid darkslategray;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(153, 7, 36);
+    border-radius: 50%;
+    background: crimson;
+    transform: translateX(0px) translateY(0px);
+    animation-name: animatsiya;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+@keyframes animatsiya{
+    0%{
+      transform: translateX(0px) translateY(0px);  
+    }
+    20%{
+        transform: translateX(325px) translateY(0px);  
+      }
+    35%{
+        transform: translateX(325px) translateY(445px);
+        width: 60px;  
+      }
+    50%{
+        transform: translateX(325px) translateY(245px); 
+        width: 50px; 
+      }
+    75%{
+        transform: translateX(325px) translateY(445px); 
+        width: 55px; 
+      }
+    76%{
+        transform: translateX(325px) translateY(445px); 
+        width: 50px; 
+      }
+    90%{
+        transform: translateX(0px) translateY(445px);  
+      }
+    100%{
+        transform: translateX(650px) translateY(445px);  
+      }
+}
+
+/*++++++++++++++++++++++++++++*/
+
+.block1{
+    width: 700px;
+    height: 500px;
+    margin: 60px auto;
+    background: grey;
+    border: 4px solid darkslategray;
+}
+.box1{
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(153, 7, 36);
+    border-radius: 50%;
+    background: crimson;
+    transform: translateX(0px) translateY(0px);
+    animation-name: animatsiya1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+    animation-delay: 0s;
+}
+@keyframes animatsiya1{
+    0%{
+        transform: translateX(0px) translateY(0px);
+    }
+    20%{
+        transform: translateX(640px) translateY(50px);
+    }
+    40%{
+        transform: translateX(0px) translateY(125px);
+    }
+    60%{
+        transform: translateX(640px) translateY(250px);
+    }
+    80%{
+        transform: translateX(0px) translateY(350px);
+    }
+    100%{
+        transform: translateX(640px) translateY(440px);
+    }
+    
+}

@@ -1,0 +1,22 @@
+.block{
+    width: 70%;
+    margin: 50px auto;
+    font-size: 18px;
+}
+p{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+div{
+    width: 98%;
+}
+.block div:nth-child(odd){
+    background-color: #2bd02d;
+}
+.block div:nth-child(even){
+    background-color: #c4fe98;
+}
+.block div:nth-child(7){
+    background-color: #e207c4;
+}
