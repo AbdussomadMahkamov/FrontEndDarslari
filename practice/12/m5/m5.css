@@ -1,0 +1,48 @@
+.block{
+    width: 400px;
+    height: 400px;
+    background-color: #f4c600;
+    margin: 8% auto;
+    border-radius: 100%;
+    position: relative;
+}
+.matn::before{
+    content: "ON";
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #66ae2c;
+    position: absolute;
+    top: 168px;
+    left: 100px;
+}
+.box{
+    width: 250px;
+    height: 100px;
+    background-color: #4a494a;
+    border-radius: 100px;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    border: 5px solid #342f2d;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: #f4c600;
+    border-radius: 100%;
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    border: 5px solid #342f2d;
+}
+.block input[type="checkbox"]:checked+ label div.box1{
+    left: 70px;
+}
+.block input[type="checkbox"]:checked+ label div.matn::before{
+    left: 210px;
+    content: "OFF";
+}
+input{
+    display: none;
+}

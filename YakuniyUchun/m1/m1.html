@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="m1.css">
+</head>
+<body>
+    <div id="myElement"></div>
+    <button onclick="salom()">Hello</button>
+
+    <form>
+        <label for="username">Foydalanuvchi nomi:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Parol:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="email">Elektron pochta manzili:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="age">Yosh:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <label for="gender">Jinsi:</label>
+        <input type="radio" id="gender_male" name="gender" value="male">
+        <label for="gender_male">Erkak</label>
+        <input type="radio" id= "gender_female" name= "gender"value= "female">
+        <label for= "gender_female">Ayol</label><br><br>
+        <label for= "country">Davlat:</label>
+        <select id= "country"name= "country">
+        <option value="">Tanlang</option>
+        <option value= "uzbekistan">O'zbekiston</option>
+        <option value= "russia">Rossiya</option>
+        <option value= "usa">AQSH</option>
+        <option value= "china">Xitoy</option>
+        </select><br><br>
+        <label for ="message">Xabar:</label>
+        <textarea id ="message"name ="message"></textarea><br><br>
+        <input type ="submit"value = "Yuborish"/>
+        </form>
+<p> &emsp; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt delectus dicta ipsum quisquam est! Repudiandae autem placeat maxime, nisi tenetur reiciendis officiis odit impedit quos ea provident unde ipsa consequuntur quo deserunt ad velit assumenda vel quibusdam iste voluptate. Fugiat culpa facere ab iste nostrum placeat laboriosam quo voluptatibus! Quisquam, magni neque? Sint modi quasi dolores numquam ullam, error vel quis voluptatem tempora? Explicabo, suscipit aperiam. Iure porro nesciunt sed provident consequuntur accusantium, ratione quibusdam, tempore cumque quas numquam nobis exercitationem eius assumenda necessitatibus asperiores. Nisi optio neque impedit, saepe rerum earum harum similique sed. Quia nulla illum corporis. Sint iure praesentium enim consequatur, id nesciunt quidem, velit dolor at nostrum delectus dicta voluptates voluptatibus vel ea dolores? Optio nihil blanditiis sequi, consequatur possimus natus ullam. Labore esse illum dolor perferendis adipisci, voluptatibus error asperiores cum eveniet praesentium suscipit nostrum ab enim soluta, beatae fugit repellendus sapiente amet minus laboriosam cupiditate quisquam! Et optio consectetur, nostrum quae quos explicabo iure velit similique laudantium iusto hic quaerat nisi vero esse iste voluptas sed distinctio amet repellendus illo ipsum obcaecati? Accusantium, omnis officia natus repudiandae dolores assumenda incidunt rerum. Eaque ea nisi ratione quaerat, amet, numquam beatae reprehenderit molestias explicabo nemo dolorum.</p>
+        <ul>
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+        </ul>
+
+        <TABLE ALIGN="qiymat1" WIDTH=" qiymat2" BORDER="butun son"
+CELLSPACING="butun son" CELLPADDING="butun son"
+BORDERCOLOR="ramka rangi" BACKGROUND= "{fonli rasm adresi}"
+FRAME= "none/above/belon/hsides/lhs/rhs/vsides/vsides/bat"
+RULES= "—none/roms/cols/ale">
+<TR ALIGN="qiymat3" VALIGN="qiymat4">
+<TD ALIGN="qiymat5" VALIGN="qiymat6" COLSPAN="butun son"
+ROWSPAN="butun son" NEIGNT="butun son" NOWRAP>Yacheyka ichidagi ifoda</TD></TR></TABLE>
+
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Gipermatnni belgilash tili</dd>
+    <dt>CSS</dt>
+    <dd>Kaskadli uslublar jadvallari</dd>
+    <dt>JS</dt>
+    <dd>JavaScript</dd>
+    </dl>
+
+</body>
+</html>
+<script>
+    var element = document.getElementById("myElement");
+element.addEventListener("click", function() {
+  element.style.animationPlayState = "paused";
+});
+    function salom(){
+        alert("SALOMLAR");
+    }
+
+    const list = document.querySelector('ul');
+const items = list.querySelectorAll('li');
+items.forEach(item => {
+item.addEventListener('mouseover', () => {
+item.style.color = 'crimson';
+item.style.fontWeight = 'bold';
+item.style.fontSize = '24px';
+});
+item.addEventListener('mouseout', () => {
+item.style.color = 'grey';
+item.style.fontWeight = 'normal';
+item.style.fontSize = '16px';
+});
+});
+
+
+</script>

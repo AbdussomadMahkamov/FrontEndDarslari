@@ -1,0 +1,64 @@
+.block{
+    width: 30%;
+    margin: 10% auto;
+    display: flex;
+    /* background: silver; */
+    padding: 100px;
+}
+
+.block label{
+    width: 60px;
+    height: 25px;
+    background-color: black;
+    border: 3px solid rgb(157, 23, 201);
+    border-radius: 25px;
+    transition-duration: 0.7s;
+    transition-property: all;
+    transition-timing-function: linear;
+    position: relative;
+    /* transition-delay: 0.4s; */
+}
+
+.block label div{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gold;
+    margin: 2.5px;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    box-sizing: border-box;
+}
+
+.block input[type="checkbox"]:checked + label{
+    background-color: gold;
+    border: 3px solid rgb(14, 149, 142);
+    /* box-shadow: 0px 0px 0px  1000px black; */
+}
+
+.block input[type="checkbox"]:checked + label div{
+    background-color: black;
+    margin-left: 37.5px;
+}
+
+.block input{
+    display: none;
+}
+b{
+    position: absolute;
+    z-index: -1;
+    width: 1700px;
+    height: 1700px;
+    left:-600px ;
+    top: -600px;
+    transition-delay: 0.8s;
+    box-sizing: border-box;
+
+}
+.block input[type="checkbox"]:checked + label b{
+    background-color: black;  
+}
+
+
+

@@ -1,0 +1,41 @@
+.block{
+    width: 50%;
+    height: 400px;
+    /* background-color: yellow; */
+    margin: 5% auto;
+    position: relative;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    border: 0.2px solid rgb(211, 209, 209);
+    border-radius: 50%;
+    background-color: #f1f6f8;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 41%;
+    left: 43%;
+    animation-name: gif;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    position: relative;
+}
+.yashil{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 198px;
+    left: 326px;
+}
+@keyframes gif{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}

@@ -1,0 +1,42 @@
+.block{
+    width: 20%;
+    height: 100px;
+    margin: 20% auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    position: relative;
+    
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    background-image: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    transition-duration: 1s;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition-duration: 1s;
+}
+input[type="checkbox"]:checked+ label div.box{
+    background-color: gainsboro;
+    left: 167px;
+}
+input[type="checkbox"]:checked+ label div.box1{
+    background-image: url(2.jpg);
+}
+input[type="checkbox"]{
+    display: none;
+}
